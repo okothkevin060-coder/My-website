@@ -59,13 +59,14 @@ body {
     padding: 40px;
     background: #181818;
 }
-
 .profile-img {
     width: 160px;
     height: 160px;
     border-radius: 50%;
     border: 3px solid #00adb5;
-    margin-right: 20px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
 }
 
 .hero-text h2 {
@@ -204,4 +205,5 @@ footer {
         margin-right: 0;
         margin-bottom: 15px;
     }
+
 }
